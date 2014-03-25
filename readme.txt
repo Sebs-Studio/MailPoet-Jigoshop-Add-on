@@ -14,8 +14,10 @@ Adds a checkbox on checkout page for your customers to subscribe to your MailPoe
 This simple plugin adds a checkbox on checkout page for your customers to subscribe to your MailPoet newsletters.
 
 = Localization =
-* English (default) - always included. *.po file (default.po) in language folder for translations.
-* Turkish by muratenez
+* English (US)[Default] - always included. *.po file (en_US.po) in language folder for translations.
+* English (UK)
+* Turkish (TR) by muratenez
+* Armenian (HY) by haykojanjado
 
 If you would like to do a translation for the plugin, you can do so via Transifex.  (https://www.transifex.com/projects/p/mailpoet-jigoshop-add-on/)
 
@@ -77,6 +79,11 @@ Automatic updates should work like a charm; as always though, ensure you backup 
 3. Jigoshop MailPoet Newsletters Enabled.
 
 == Changelog ==
+
+= 1.0.2 - 06/01/2014 =
+
+* Added - Armenian language by haykojanjado
+* Corrected - Default source language from en_GB to en_US, now both UK and US language is available.
 
 = 1.0.1 - 04/01/2014 =
 

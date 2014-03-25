@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MailPoet Jigoshop Add-on\n"
 "POT-Creation-Date: 2013-12-19 20:14+0100\n"
-"PO-Revision-Date: 2013-12-19 20:14+0100\n"
+"PO-Revision-Date: 2014-01-06 16:57+0100\n"
 "Last-Translator: \n"
 "Language-Team: Sebs Studio <sebastien@sebs-studio.com>\n"
-"Language: English\n"
+"Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,15 +17,15 @@ msgstr ""
 
 #: mailpoet-jigoshop-addon.php:61 mailpoet-jigoshop-addon.php:123
 msgid "Yes, add me to your mailing list"
-msgstr ""
+msgstr "Yes, add me to your mailing list"
 
 #: mailpoet-jigoshop-addon.php:87
 msgid "MailPoet"
-msgstr ""
+msgstr "MailPoet"
 
 #: mailpoet-jigoshop-addon.php:103
 msgid "MailPoet Newsletter"
-msgstr ""
+msgstr "MailPoet Newsletter"
 
 #: mailpoet-jigoshop-addon.php:105
 msgid ""
@@ -33,30 +33,33 @@ msgid ""
 "MailPoet. Simple setup your settings below and press \"Save MailPoet Changes"
 "\"."
 msgstr ""
+"Now your customers can subscribe to newsletters you have created with "
+"MailPoet. Simple setup your settings below and press \"Save MailPoet Changes"
+"\"."
 
 #: mailpoet-jigoshop-addon.php:110
 msgid "Enable subscribe on checkout"
-msgstr ""
+msgstr "Enable subscribe on checkout"
 
 #: mailpoet-jigoshop-addon.php:111
 msgid "Add a subscribe checkbox to your checkout page."
-msgstr ""
+msgstr "Add a subscribe checkbox to your checkout page."
 
 #: mailpoet-jigoshop-addon.php:118
 msgid "Checkbox label"
-msgstr ""
+msgstr "Checkbox label"
 
 #: mailpoet-jigoshop-addon.php:119
 msgid "Enter a message to place next to the checkbox."
-msgstr ""
+msgstr "Enter a message to place next to the checkbox."
 
 #: mailpoet-jigoshop-addon.php:131 mailpoet-jigoshop-addon.php:156
 msgid "MailPoet Lists"
-msgstr ""
+msgstr "MailPoet Lists"
 
 #: mailpoet-jigoshop-addon.php:150
 msgid "Settings saved"
-msgstr ""
+msgstr "Settings saved"
 
 #: mailpoet-jigoshop-addon.php:158
 msgid ""
@@ -64,10 +67,13 @@ msgid ""
 "subscribe. Simply tick the newsletters you want your customers to subscribe "
 "to and press \"Save Changes\"."
 msgstr ""
+"Here is the list of newsletters you can assign the customer to when they "
+"subscribe. Simply tick the newsletters you want your customers to subscribe "
+"to and press \"Save Changes\"."
 
 #: mailpoet-jigoshop-addon.php:171
 msgid "Save Settings"
-msgstr ""
+msgstr "Save Settings"
 
 #: mailpoet-jigoshop-addon.php:249
 #, php-format
@@ -75,11 +81,13 @@ msgid ""
 "MailPoet Jigoshop Add-On requires Jigoshop. Please install and activate <a "
 "href=\"%s\">Jigoshop</a> first."
 msgstr ""
+"MailPoet Jigoshop Add-On requires Jigoshop. Please install and activate <a "
+"href=\"%s\">Jigoshop</a> first."
 
 #: include/settings-newsletters.php:19
 msgid "Enabled"
-msgstr ""
+msgstr "Enabled"
 
 #: include/settings-newsletters.php:20
 msgid "Newsletters"
-msgstr ""
+msgstr "Newsletters"

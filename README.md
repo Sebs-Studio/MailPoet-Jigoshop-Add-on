@@ -2,8 +2,8 @@
 
 Contributors: wysija, sebd86
 Tags: mailpoet, wysija, jigoshop, sebs studio, extension, add-on
-Requires at least: 3.5.1
-Tested up to: 3.8
+Requires at least: 3.7.1
+Tested up to: 3.8.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -13,8 +13,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 This simple plugin adds a checkbox on checkout page for your customers to subscribe to your MailPoet newsletters.
 
 ## Localization
-* English (default) - always included. *.po file (default.po) in language folder for translations.
-* Turkish by muratenez
+* English (US)[Default] - always included. mailpoet_jigoshop_add_on.pot file in language folder for translations.
+* English (UK)
+* Turkish (TR) by muratenez
+* Armenian (HY) by haykojanjado
 
 If you would like to do a translation for the plugin, you can do so via Transifex.  (https://www.transifex.com/projects/p/mailpoet-jigoshop-add-on/)
 
@@ -36,8 +38,8 @@ To contribute to the plugin, visit https://github.com/seb86/MailPoet-Jigoshop-Ad
 
 __Minimum Requirements__
 
-* MailPoet
-* Jigoshop
+* MailPoet http://wordpress.org/plugins/wysija-newsletters/
+* Jigoshop http://wordpress.org/plugins/jigoshop/
 
 __Automatic installation__
 
@@ -76,6 +78,24 @@ Automatic updates should work like a charm; as always though, ensure you backup 
 3. Jigoshop MailPoet Newsletters Enabled.
 
 ## Changelog
+
+__1.0.4 - 25/03/2014__
+
+* ADDED - More languages, Arabic, Greek, Portuguese (Brazil), Russian
+* CORRECTED - If function 'mailpoet_lists' is already defined, then don't load again.
+* REMOVED - Translation of the brand name 'MailPoet' only.
+* UPDATED - POT file
+
+__1.0.3 - 07/01/2014__
+
+* Renamed - 'lang' folder to 'languages'.
+* Added - mailpoet-jigoshop-addon.pot file.
+* Updated - Read me file.
+
+__1.0.2 - 06/01/2014__
+
+* Added - Armenian language by haykojanjado
+* Corrected - Default source language from en_GB to en_US, now both UK and US language is available.
 
 __1.0.1 - 04/01/2014__
 
