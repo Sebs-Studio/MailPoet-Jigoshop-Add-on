@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: MailPoet Jigoshop Add-on
-Plugin URI: http://www.mailpoet.com
+Plugin URI: http://wordpress.org/plugins/mailpoet-jigoshop-add-on/
 Description: Subscribe your customers to MailPoet newsletters
-Version: 1.0.3
+Version: 1.0.4
 Author: Sebs Studio
 Author URI: http://www.sebs-studio.com
 Author Email: sebastien@sebs-studio.com
@@ -84,7 +84,7 @@ class MailPoet_Jigoshop_Add_on {
 	 * Creates a new tab section in Jigoshop settings.
 	 */
 	public function install_settings(){
-		Jigoshop_Base::get_options()->install_external_options_tab(__('MailPoet', 'mailpoet_jigoshop'), $this->mailpoet_newsletter_admin_settings());
+		Jigoshop_Base::get_options()->install_external_options_tab('MailPoet', $this->mailpoet_newsletter_admin_settings());
 	}
 
 	/**
@@ -162,7 +162,7 @@ class MailPoet_Jigoshop_Add_on {
 		<?php
 		include_once(dirname(__FILE__).'/include/settings-newsletters.php');
 
-		$mailpoet_list = $this->mailpoet_lists();
+		$mailpoet_list = mailpoet_lists();
 
 		do_action('jigoshop_mailpoet_list_newsletters', $mailpoet_list);
 		?>
@@ -179,15 +179,6 @@ class MailPoet_Jigoshop_Add_on {
 	<?php
 	}
 
-	// Get all mailpoet lists.
-	public function mailpoet_lists(){
-		// This will return an array of results with the name and list_id of each mailing list
-		$model_list = WYSIJA::get('list','model');
-		$mailpoet_lists = $model_list->get(array('name','list_id'), array('is_enabled' => 1));
-
-		return $mailpoet_lists;
-	}
-
 	/**
 	 * This displays a checkbox field on the checkout 
 	 * page to allow the customer to subscribe to newsletters.
@@ -199,7 +190,6 @@ class MailPoet_Jigoshop_Add_on {
 
 		if($enable_checkout == 'yes'){
 			// Display the checkbox.
-			//echo apply_filters('mailpoet_jigoshop_subscribe_checkout_title', '<h3>'.__('Subscribe to Newsletter', 'mailpoet_jigoshop').'</h3>');
 			echo '<p class="form-row mailpoet-on-checkout" style="clear:left;">'.
 			'<input id="mailpoet-box-on-checkout" class="input-checkbox" type="checkbox" value="1" name="mailpoet_checkout_subscribe">'.
 			'<label class="checkbox" for="mailpoet-subscription">'.
@@ -237,6 +227,19 @@ class MailPoet_Jigoshop_Add_on {
 
 } // end class
 new MailPoet_Jigoshop_Add_on();
+
+/**
+ * Gets all enabled lists in MailPoet
+ */
+if( ! function_exists( 'mailpoet_lists' ) ) {
+	function mailpoet_lists(){
+		// This will return an array of results with the name and list_id of each mailing list
+		$model_list = WYSIJA::get('list','model');
+		$mailpoet_lists = $model_list->get(array('name','list_id'), array('is_enabled' => 1));
+
+		return $mailpoet_lists;
+	}
+}
 
 }
 else{
