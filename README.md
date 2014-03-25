@@ -79,6 +79,12 @@ Automatic updates should work like a charm; as always though, ensure you backup 
 
 ## Changelog
 
+__1.0.3 - 07/01/2014__
+
+* Renamed - 'lang' folder to 'languages'.
+* Added - mailpoet-jigoshop-addon.pot file.
+* Updated - Read me file.
+
 __1.0.2 - 06/01/2014__
 
 * Added - Armenian language by haykojanjado

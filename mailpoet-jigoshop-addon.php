@@ -3,7 +3,7 @@
 Plugin Name: MailPoet Jigoshop Add-on
 Plugin URI: http://www.mailpoet.com
 Description: Subscribe your customers to MailPoet newsletters
-Version: 1.0.2
+Version: 1.0.3
 Author: Sebs Studio
 Author URI: http://www.sebs-studio.com
 Author Email: sebastien@sebs-studio.com
@@ -66,7 +66,7 @@ class MailPoet_Jigoshop_Add_on {
 	 */
 	function init_mailpoet_jigoshop_add_on(){
 		// Setup localization
-		load_plugin_textdomain(self::slug, false, dirname(plugin_basename(__FILE__)).'/lang');
+		load_plugin_textdomain(self::slug, false, dirname(plugin_basename(__FILE__)).'/languages');
 
 		if(is_admin()){
 			// Adds a menu item under Jigoshop.

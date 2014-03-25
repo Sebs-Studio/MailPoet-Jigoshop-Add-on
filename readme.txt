@@ -11,10 +11,12 @@ Adds a checkbox on checkout page for your customers to subscribe to your MailPoe
 
 == Description ==
 
+> This plugin requires <a href="http://wordpress.org/plugins/wysija-newsletters/" rel="nofollow">MailPoet plugin</a> and <a href="http://wordpress.org/plugins/jigoshop/" rel="nofollow">Jigoshop plugin</a>.
+
 This simple plugin adds a checkbox on checkout page for your customers to subscribe to your MailPoet newsletters.
 
 = Localization =
-* English (US)[Default] - always included. *.po file (en_US.po) in language folder for translations.
+* English (US)[Default] - always included. mailpoet-jigoshop-addon.pot file in language folder for translations.
 * English (UK)
 * Turkish (TR) by muratenez
 * Armenian (HY) by haykojanjado
@@ -39,8 +41,8 @@ To contribute to the plugin, visit https://github.com/seb86/MailPoet-Jigoshop-Ad
 
 = Minimum Requirements =
 
-* MailPoet
-* Jigoshop
+* MailPoet (http://wordpress.org/plugins/wysija-newsletters/)
+* Jigoshop (http://wordpress.org/plugins/jigoshop/)
 
 = Automatic installation =
 
@@ -79,6 +81,12 @@ Automatic updates should work like a charm; as always though, ensure you backup 
 3. Jigoshop MailPoet Newsletters Enabled.
 
 == Changelog ==
+
+= 1.0.3 - 07/01/2014 =
+
+* Renamed - 'lang' folder to 'languages'.
+* Added - mailpoet-jigoshop-addon.pot file.
+* Updated - Read me file.
 
 = 1.0.2 - 06/01/2014 =
 
