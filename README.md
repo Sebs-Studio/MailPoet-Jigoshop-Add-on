@@ -79,19 +79,6 @@ Automatic updates should work like a charm; as always though, ensure you backup 
 
 ## Changelog
 
-__1.0.4 - 25/03/2014__
-
-* ADDED - More languages, Arabic, Greek, Portuguese (Brazil), Russian
-* CORRECTED - If function 'mailpoet_lists' is already defined, then don't load again.
-* REMOVED - Translation of the brand name 'MailPoet' only.
-* UPDATED - POT file
-
-__1.0.3 - 07/01/2014__
-
-* Renamed - 'lang' folder to 'languages'.
-* Added - mailpoet-jigoshop-addon.pot file.
-* Updated - Read me file.
-
 __1.0.2 - 06/01/2014__
 
 * Added - Armenian language by haykojanjado
